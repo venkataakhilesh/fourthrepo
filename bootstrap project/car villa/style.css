@@ -1,0 +1,64 @@
+.navbar{
+       text-transform: uppercase;
+       font-family: initial;
+       
+       color:aliceblue;
+}
+header{
+       background-image: url("./assets/ford-5819808_1280.jpg");
+       background-repeat: no-repeat ;
+       background-size: cover;
+       
+}
+.nav-link:hover{
+       background-color:beige;
+       border-radius: 20px;
+       
+
+}
+.hero-container h1{
+       text-transform: uppercase;
+}
+.hero-container{
+       margin-top: 150px;
+       margin-left: 350px;
+       
+}
+.ft-2{
+  
+text-transform: uppercase;
+
+
+}
+.ft-3{
+      margin-left:90px;
+      
+}
+.ft-4{
+
+  margin-left:265px; 
+  background-color: lightskyblue;
+  border-radius: 5px;    
+  border: 1px solid lightskyblue ;
+  padding: 5px 5px;
+}
+.hero1-container{
+       margin-left: 480px;
+       margin-top: 100px;
+      
+       
+}
+.card-container{
+        margin-top: 100px;
+        margin-left: 200px;
+        
+}
+.img-fluid{
+       width: 80px;
+       height: 60px;
+       margin-left: 90px;
+       margin-top: 30px;
+}
+.btn{
+ margin-bottom: 80px;
+}

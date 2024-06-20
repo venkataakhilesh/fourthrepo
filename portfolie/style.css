@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+  
+
+body{
+  background-image: url("./assets/galaxy-11098_1280.jpg");
+  color: whitesmoke;
+  font-family: "Libre Baskerville", serif;
+
+  
+}
+.nav-link {
+  margin-top: 10px;
+  margin-left: 20px;
+  color: black;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.nav-link:hover {
+  color: rgb(218, 102, 20);
+  font-size: 20px;
+}
+
+.nav-link.active:hover {
+  background-color: rgb(218, 102, 20);
+  border: 2px solid rgb(218, 102, 20);
+  border-radius: 10px;
+}
+
+.navbar{
+background-image:linear-gradient(180deg,rgb(66, 54, 110),rgb(237, 245, 246));
+
+}
+
+h5{
+
+    color: white;
+}
+h1{
+  font-family: initial;
+}
+h4{
+    color:chocolate;
+}
+
+.ft-2{
+
+    background-color: rgb(218, 102, 20);
+    border:2px solid white;
+    border-radius:20px;
+    padding:10px 10px;
+
+}
+
+.ft-2:hover{
+
+  background-color: aliceblue;
+  border: 2px solid orange;
+  color: black;
+}
+.ft-3{
+
+    background-color: lightslategray;
+    border-radius:20px;
+    color:beige;
+    border:2px solid gray;
+    padding:5px 5px;
+}
+
+.ft-3:hover{
+background-color: rgb(218, 102, 20);
+color: black;
+border: 2px solid black;
+
+}
+#row1{
+    
+    margin-left: 80px;
+
+  
+}
+
+.hero-container .image-fluid{
+
+width:400px;
+height:300px;
+
+margin-right:150px;
+margin-top:200px;
+
+}
+.hero1-container .img1{
+width:200px;
+height:250px;
+margin-left:80px;
+margin-top:100px;
+
+}
+/* #row2{
+  position:relative;
+} */
+
+#Parent{
+    margin-top:250px;
+}
+
+
+#Parent1{
+    margin-top:95px;
+    
+    
+
+    
+}
+#btn1:hover{
+
+  color:blueviolet;
+  border: 2px solid rgb(196, 212, 198);
+  background-color: aliceblue;
+}
+
+/* .ft-5{
+
+  margin-left:550px;
+}
+.ft-6{
+margin-left: 510px;
+}
+.ft-7{
+ margin-left:350px;
+
+} */
+#Parent3{
+  margin-top:230px;
+}
+p{
+  line-height:35px;
+}
+
+#row4{
+
+  margin-left:90px;
+  margin-top:120px;
+  margin-right:120px;
+}
+
+.card i{
+
+  margin-left:120px;
+  color:orange;
+}
+.card .h5{
+  margin-left:80px;
+}
+
+.card .auto{
+
+  margin-left:110px;
+}
+.card:hover{
+
+  background-color: gold;
+}
+/* .ft-8{
+
+  margin-left:550px;
+}
+.ft-9{
+    margin-left: 420px;
+}
+.ft-10{
+ margin-left:350px;
+
+} */
+#Parent4{
+  margin-top:130px;
+}
+
+#row6{
+  margin-top: 40px;
+  margin-left: 70px;
+}
+.animated-card:hover{
+  animation: image 5s infinite;
+  
+}
+@keyframes image {
+  from{
+    opacity: 0;
+    transform: translateY(0px);
+   
+  }
+  to{
+    opacity: 0.5;
+    transform: translateY(-100px);
+    
+  
+  }
+  
+}
+.card:hover{
+
+  background-image:linear-gradient(180deg,rgb(211, 206, 230),rgb(15, 15, 83));
+}
+#Parent5{
+  margin-top: 60px;
+
+}
+
+/* .ft-11{
+  margin-left: 600px;
+}
+.ft-12{
+  margin-left: 490px;
+}
+.ft-13{
+  margin-left: 390px;
+}
+.ft-14{
+  margin-left: 560px;
+} */
+
+#row8{
+  margin-top: 40px;
+  margin-left: 80px;
+}
+#row9{
+  margin-top: 80px;
+  margin-left: 180px;
+  margin-right: 150px;
+  background-color:mediumslateblue;
+  padding: 20px;
+  border-radius: 20px;
+}
+.btn1{
+  margin-top: 15px;
+  margin-left: 320px;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+/* .ft-15{
+  margin-left: 600px;
+} */
+
+#row11{
+  margin-top: 40px;
+  margin-left: 180px;
+  background-color: rgba(39, 64, 100, 0.269);
+  margin-right: 150px;
+  padding: 20px;
+}
+
+.btn{
+  margin-left: 120px;
+}
+#Parent8{
+  margin-top: 90px;
+}
+
+#row12{
+  margin-top: 40px;
+}
+#row13{
+  padding-left: 200px;
+  margin-top:100px;
+  
+  background-image:repeating-linear-gradient(180deg,lightyellow,rgb(80, 126, 243));
+  height:40px;
+  border:1px solid blue;
+  width:100%;
+  padding-top: 5px ;
+  padding-bottom: 5px;
+ 
+}
+
+#s-2{
+  padding-left:250px;
+  font-size: 25px;
+  
+}
+
+@media screen and (min-width: 370px) and (max-width: 916px) {
+  .hero1-container .img1{
+    margin-left: 150px;
+  }
+  .hero1-container #row2{
+    margin-left: 100px;
+
+  }
+  .hero1-container #Parent1{
+    margin-left: 100px;
+  }
+  .hero11-container #row11{
+    background-color:  rgba(39, 64, 100, 0.269);
+    width: 200px;
+    margin-left: 150px;
+  }
+  .hero11-container .btn{
+    margin-left: 10px;
+  }
+  
+  .hero11-container #exampleInputMessage{
+    width:130px;
+
+  }
+  .hero11-container #exampleInputEmail1{
+    width: 130px;
+  }
+  .hero11-container #exampleInputPassword1{
+    width: 130px;
+  }
+  #row9{
+    
+    margin-left: 50px;
+    
+    background-color:mediumslateblue;
+    padding: 20px;
+    border-radius: 20px;
+    width: 400px;
+    height: 180px;
+  }
+  .btn1{
+    
+    margin-left: 70px;
+    margin-top: 50px;
+  }
+
+  #row13{
+    height: 60px;
+    padding-left: 50px;
+  margin-top:100px;
+  
+  
+  
+  }
+  #s-2{
+    display:flex;
+    padding-left: 20px;
+    padding-top: 10px;
+    
+  }
+  
+}
+

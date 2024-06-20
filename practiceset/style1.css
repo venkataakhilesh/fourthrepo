@@ -1,0 +1,43 @@
+#Form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    width:400px ;
+    height:200px ;
+    margin: auto;
+    position: relative;
+}
+h2{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 3px 3px;
+}
+button{
+    background-color: blue;
+    color: white;
+    padding: 5px 5px;
+}
+#FirstName{
+       width:120px ;
+       height: 20px;
+       position: relative;
+       top: 38px;
+}
+#LastName{
+    width: 120px;
+    height: 20px;
+    margin-left: 270px;
+}
+#City{
+    width: 120px;
+    height: 20px;
+    position: relative;
+    top: 38px;
+}
+#Country{
+    width: 120px;
+    height: 20px;
+    margin-left: 270px;
+    margin-left: 270px;
+}
